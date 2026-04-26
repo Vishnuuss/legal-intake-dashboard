@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import IntroScreen from './IntroScreen';
 import ClickEffect from './ClickEffect';
 import { 
-  Briefcase, CheckCircle, Clock, Scale, TrendingUp, BrainCircuit,
+  Briefcase, Clock, Scale, BrainCircuit,
   FileText, AlertTriangle, X, ChevronRight, User, Mail, FileCheck,
   Search, Bell, Settings, LayoutDashboard, FolderOpen, PieChart as PieChartIcon,
   LogOut, Activity, ArrowUpRight, Download, Check
@@ -275,7 +275,7 @@ function App() {
                 </tr>
               </thead>
               <tbody className="text-sm">
-                {filteredIntakes.slice(0, 4).map((intake, i) => (
+                {filteredIntakes.slice(0, 4).map((intake, _i) => (
                   <tr key={intake.id} onClick={() => setSelectedIntake(intake)} className="border-b border-[#1A1A1A] hover:bg-[#171717] transition-colors cursor-pointer">
                     <td className="py-4 px-5 font-mono text-xs text-blue-400">{intake.id}</td>
                     <td className="py-4 px-5 font-medium text-gray-200">{intake.client}</td>
