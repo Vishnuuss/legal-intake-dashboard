@@ -381,7 +381,7 @@ function App() {
             </div>
             <div>
               <label className="block text-xs text-gray-500 uppercase tracking-widest mb-2">n8n Webhook URL</label>
-              <input type="text" value="https://n8n.antigravity.legal/webhook/intake" readOnly className="w-full bg-[#171717] border border-[#262626] rounded-lg px-4 py-2 text-gray-300 outline-none" />
+              <input type="text" value="https://pretty-dolls-brush.loca.lt/webhook/22882ccc-2aa8-4a42-8144-b339dee444b6" readOnly className="w-full bg-[#171717] border border-[#262626] rounded-lg px-4 py-2 text-gray-300 outline-none" />
             </div>
           </div>
           <button onClick={() => showToast("Keys saved successfully")} className="neo-btn mt-6 px-6 py-2 rounded-lg text-sm w-full">Save Configuration</button>
